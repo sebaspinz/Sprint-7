@@ -29,7 +29,7 @@ if scatter_button: # al hacer clic en el botón
     st.plotly_chart(fig, use_container_width=True)
     fig.show()
 
-# Score del usuario hacia la pagina
+# Score del usuario hacia la pagina y comentarios
 score= st.feedback(options="faces")
 if score is not None:
     if score <= 1:

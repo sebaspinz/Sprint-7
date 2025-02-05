@@ -1,0 +1,8 @@
+# Crear nuevo entorno
+python -m ven (Nombre de entorno)
+# pip install (Nombre lib)
+- Instala librerias requeridas
+- Verificar estare en el entorno
+# plotly-express
+- Libreria de graficos comunes
+- Requiere libreria nbformat adicional para funcionar
